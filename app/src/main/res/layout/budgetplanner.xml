@@ -14,18 +14,18 @@
         android:backgroundTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/vecteezy_background_green_fj0121_generated" />
 
     <View
         android:id="@+id/view"
         android:layout_width="423dp"
         android:layout_height="708dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="94dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
         android:background="#8FEADDDD"
         android:backgroundTint="#F2F4F0F0"
         android:drawingCacheQuality="auto"
