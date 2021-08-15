@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MAD Project 2</string>
+    <string name="heading1">Fill Your Data</string>
+    <string name="button1">Submit</string>
+    <string name="textP1">Net Salary</string>
+    <string name="textP2">Loan Amounts</string>
+    <string name="textP3">Foods</string>
+    <string name="textP4">Commitments</string>
+    <string name="textP5">Entertainment</string>
+    <string name="textP6">Other Expenses</string>
 </resources>
