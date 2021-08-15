@@ -8,4 +8,9 @@
     <string name="textP4">Commitments</string>
     <string name="textP5">Entertainment</string>
     <string name="textP6">Other Expenses</string>
+    <string name="tax1">Am I liable for tax?</string>
+    <string name="depositamount">Deposit Amount</string>
+    <string name="bankname">Bank Name</string>
+    <string name="period" >Period</string>
+    <string name="totalamount">Total Amount</string>
 </resources>
