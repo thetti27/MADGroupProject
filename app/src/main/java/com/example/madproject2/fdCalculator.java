@@ -1,4 +1,18 @@
 package com.example.madproject2;
 
-public class fdCalculator {
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+
+
+    public class fdCalculator extends AppCompatActivity {
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.fdcalculator);
+        }
+
+
 }
