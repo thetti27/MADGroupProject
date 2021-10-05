@@ -36,7 +36,7 @@
         android:layout_height="36dp"
         android:text="Identify your expenses"
         android:textColor="#000000"
-        android:textSize="28"
+        android:textSize="28dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
