@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147291976862",
+    "project_id": "unimint-mad",
+    "storage_bucket": "unimint-mad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147291976862:android:0d575745ab914b7576f78f",
+        "android_client_info": {
+          "package_name": "com.example.madproject2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147291976862-6igl1rtldkl9om58o8v4jij41vho1dko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJ8jHdFVy0JLjX4816px7riPI1fdggUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147291976862-6igl1rtldkl9om58o8v4jij41vho1dko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

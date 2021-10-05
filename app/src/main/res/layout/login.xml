@@ -25,38 +25,54 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="-400dp"
-        android:layout_marginEnd="100"
+        android:layout_marginEnd="100dp"
         android:background="@color/white"
         android:backgroundTint="@color/white"
         android:ems="10"
-        android:hint="Email"
+        android:hint="  Email"
         android:inputType="textEmailAddress"
-        android:text="Email" />
+        android:text="  Email" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="-300dp"
-        android:layout_marginEnd="100"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="-350dp"
+        android:layout_marginEnd="100dp"
         android:background="#E3DCDC"
-        android:hint="Password"
         android:backgroundTint="@color/white"
         android:ems="10"
+        android:hint="  Password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/Signup"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="-190dp"
-        android:layout_marginEnd="125"
-        android:text="Button" />
+        android:layout_marginTop="-250dp"
+        android:layout_marginEnd="125dp"
+        android:text="SIGN UP" />
+
+    <TextView
+        android:id="@+id/notregtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Signup"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="75dp"
+        android:text="Not registered? Sign up here." />
 
 </RelativeLayout>
