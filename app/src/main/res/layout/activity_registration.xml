@@ -53,8 +53,25 @@
         android:hint="  Password"
         android:inputType="textPassword" />
 
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="-300dp"
+        android:layout_marginEnd="100dp"
+        android:background="#E3DCDC"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint=" Re-type Password"
+        android:inputType="textPassword" />
+
     <Button
-        android:id="@+id/Signup"
+        android:id="@+id/SignUp"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView3"
@@ -64,15 +81,15 @@
         android:text="SIGN UP" />
 
     <TextView
-        android:id="@+id/notregtext"
+        android:id="@+id/SignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Signup"
+        android:layout_below="@+id/SignUp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="75dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="75dp"
-        android:text="Not registered? Sign up here." />
+        android:text="Already registered? Sign in here." />
 
 </RelativeLayout>

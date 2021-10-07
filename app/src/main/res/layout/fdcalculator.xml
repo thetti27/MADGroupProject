@@ -23,14 +23,13 @@
         android:id="@+id/view2"
         android:layout_width="369dp"
         android:layout_height="631dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="72dp"
         android:background="#8FEADDDD"
         android:backgroundTint="#F2F4F0F0"
         android:drawingCacheQuality="auto"
         android:fadeScrollbars="false"
         android:filterTouchesWhenObscured="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
