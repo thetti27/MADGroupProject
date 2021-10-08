@@ -7,10 +7,11 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="479dp"
-        android:layout_height="744dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/background1"
         android:backgroundTintMode="add"
+        android:contentDescription="@string/background_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,11 +20,72 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/vecteezy_background_green_fj0121_generated" />
 
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:background="@drawable/answer"
+        android:padding="10dp"
+        android:text="@string/what_is_tax"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="336dp"
+        android:layout_height="35dp"
+        android:background="@drawable/answer2"
+        android:backgroundTint="#F2F4F0F0"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="@string/statutory_levies_charged_on_a_taxpayer_by_the_government"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/answer"
+        android:layout_width="336dp"
+        android:layout_height="35dp"
+        android:background="@drawable/answer2"
+        android:backgroundTint="#F2F4F0F0"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="@string/statutory_levies_charged_on_a_taxpayer_by_the_government"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer2"
+        app:layout_constraintVertical_bias="0.147"
+        tools:ignore="TouchTargetSizeCheck" />
+
     <View
         android:id="@+id/view3"
         android:layout_width="355dp"
         android:layout_height="189dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="500dp"
         android:background="#8FEADDDD"
         android:backgroundTint="#F2F4F0F0"
         android:drawingCacheQuality="auto"
@@ -39,57 +101,72 @@
         android:layout_height="49dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="casual"
         android:linksClickable="false"
         android:text="@string/tax1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:autoSizeTextType="uniform"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view3" />
-
-    <View
-        android:id="@+id/view4"
-        android:layout_width="354dp"
-        android:layout_height="359dp"
-        android:layout_marginTop="300dp"
-        android:background="#8FEADDDD"
-        android:backgroundTint="#F2F4F0F0"
-        android:drawingCacheQuality="auto"
-        android:fadeScrollbars="false"
-        android:filterTouchesWhenObscured="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Individual"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="181dp" />
+        android:text="@string/individual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <Button
+        android:id="@+id/taxpayer"
+        android:layout_width="219dp"
+        android:layout_height="39dp"
+        android:background="@drawable/answer"
+        android:padding="10dp"
+        android:text="@string/so_are_you_a_taxpayer"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/taxeligibility"
+        android:layout_width="219dp"
+        android:layout_height="39dp"
+        android:background="@drawable/answer"
+        android:padding="10dp"
+        android:text="@string/check_your_tax_eligibility"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:text="Company"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        tools:layout_editor_absoluteY="181dp" />
+        android:layout_marginStart="92dp"
+        android:text="@string/company"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Partnership"
-        app:layout_constraintEnd_toEndOf="@+id/view3"
-        app:layout_constraintStart_toEndOf="@+id/button7"
-        tools:layout_editor_absoluteY="181dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="254dp"
-        android:layout_height="285dp"
-        app:srcCompat="@drawable/tax"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="322dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

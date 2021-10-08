@@ -13,4 +13,12 @@
     <string name="bankname">Bank Name</string>
     <string name="period">Period</string>
     <string name="totalamount">Total Amount</string>
+    <string name="individual">Individual</string>
+    <string name="company">Company</string>
+    <string name="partnership">Partnership</string>
+    <string name="statutory_levies_charged_on_a_taxpayer_by_the_government">Statutory levies charged on a taxpayer by the government</string>
+    <string name="what_is_tax">What is tax?</string>
+    <string name="so_are_you_a_taxpayer">So are you a taxpayer?</string>
+    <string name="check_your_tax_eligibility">Check your tax eligibility</string>
+    <string name="background_image">background image</string>
 </resources>
