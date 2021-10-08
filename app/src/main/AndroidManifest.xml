@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADProject2">
-        <activity android:name=".interestcalculator"></activity>
+        <!--<activity android:name=".interestcalculator"></activity>
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity
             android:name=".knowledgebase_1"
-            android:exported="true" />
+            android:exported="true" /> !-->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

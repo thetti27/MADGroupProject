@@ -21,4 +21,6 @@
     <string name="so_are_you_a_taxpayer">So are you a taxpayer?</string>
     <string name="check_your_tax_eligibility">Check your tax eligibility</string>
     <string name="background_image">background image</string>
+    <string name="check_your_tax_liability_using_this_free_online_assement">Check your tax liability using this free online assement!</string>
+    <string name="what_are_the_types_of_taxes_available">What are the types of taxes available?</string>
 </resources>

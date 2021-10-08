@@ -18,7 +18,8 @@
         android:layout_marginEnd="121dp"
         android:layout_marginBottom="437dp"
         android:textAlignment="center"
-        app:srcCompat="@drawable/logo_size" />
+        app:srcCompat="@drawable/logo_size"
+        android:contentDescription="TODO" />
 
     <EditText
         android:id="@+id/email"
@@ -35,6 +36,7 @@
         android:ems="10"
         android:hint="  Email"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         android:text="  Email" />
 
     <EditText
@@ -51,7 +53,8 @@
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="  Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
     <EditText
@@ -68,7 +71,8 @@
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint=" Re-type Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/SignUp"
